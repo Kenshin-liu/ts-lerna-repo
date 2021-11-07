@@ -1,9 +1,8 @@
 {
   "name": "@ts-lernarepo/log",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "devDependencies": {},
   "scripts": {
     "build": "node ../../scripts/build",
     "build-js": "node ../../scripts/build-js",
