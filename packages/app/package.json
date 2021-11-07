@@ -1,6 +1,6 @@
 {
   "name": "@ts-lernarepo/app",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "module": "dist/app.es.js",
   "types": "dist/app.d.ts",
   "devDependencies": {
@@ -19,7 +19,7 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@ts-lernarepo/log": "^0.0.3"
+    "@ts-lernarepo/log": "^0.0.4"
   },
   "scripts": {
     "build": "rimraf dist/* && rollup -c",

@@ -1,6 +1,6 @@
 {
   "name": "@ts-lernarepo/log",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "module": "dist/log.es.js",
   "types": "dist/log.d.ts",
   "devDependencies": {
