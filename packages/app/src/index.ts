@@ -1,3 +1,7 @@
 import log from "@ts-lernarepo/log";
 
-log("app started");
+const test = () => {
+    log("app started");
+}
+
+export default test

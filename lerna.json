@@ -2,7 +2,20 @@
   "packages": [
     "packages/*"
   ],
-  "version": "independent",
   "npmClient": "yarn",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "command": {
+    "version": {
+      "conventionalCommits": true,
+      "noPrivate": true,
+      "message": "chore: publish %s"
+    },
+    "publish": {
+      "registry": "https://registry.npmjs.org/"
+    }
+  },
+  "ignoreChanges": [
+    "**/*.md"
+  ],
+  "version": "independent"
 }

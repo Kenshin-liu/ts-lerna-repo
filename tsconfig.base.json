@@ -1,26 +1,22 @@
 {
   "compilerOptions": {
+    "outDir": "lib",
+    "sourceMap": false,
+    "target": "esnext",
     "module": "commonjs",
-    "target": "ES2017",
-    "lib": ["es6"],
-    "types": ["node"],
-    "noImplicitAny": false,
     "moduleResolution": "node",
-    "sourceMap": true,
-    "baseUrl": "./packages",
+    "allowJs": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "alwaysStrict": true,
     "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
     "esModuleInterop": true,
-    "paths": {
-      "@dsl/*": ["src/lib/dsl/*"],
-      "@utils": ["src/lib/utils/index"],
-      "@code/*": ["src/lib/code/*"],
-      "@layout/*": ["src/lib/layout/*"],
-      "@parse/*": ["src/lib/parse/*"],
-      "@type/*": ["src/lib/types/*"],
-      "@adapter/*": ["src/lib/adapter/*"],
-      "@ts-lernarepo/*": ["*/src/index"]
-    }
-  }
+    "removeComments": false,
+    "lib": ["esnext"],
+    "types": ["node"]
+  },
+  "exclude": ["node_modules", "lib"]
 }

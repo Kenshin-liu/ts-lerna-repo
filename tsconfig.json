@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.base.json",
+
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@ts-lernarepo/*": ["packages/*/src"]
+    }
+  },
+
+  "include": ["./typings", "**/*.ts"]
+}
