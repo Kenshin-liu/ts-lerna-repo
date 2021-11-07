@@ -1,7 +1,13 @@
-64 error Error: Command failed: git push --follow-tags --no-verify --atomic origin main
-64 error remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
-64 error remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
-64 error fatal: Authentication failed for 'https://github.com/Zronel/ts-lerna-repo.git/'
-64 error
-64 error     at makeError (/Users/liudiguang/Test/ts-lerna-repo/node_modules/execa/index.js:174:9)
-64 error     at /Users/liudiguang/Test/ts-lerna-repo/node_modules/execa/index.js:278:16
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: 'log',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'lerna',
+0 silly argv   pkg: 'package_A'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/liudiguang/Test/ts-lerna-repo
+3 info versioning independent
+4 error Error: 404 Not Found - GET https://registry.npmjs.org/package_A - Not found
+4 error     at /Users/liudiguang/Test/ts-lerna-repo/node_modules/@evocateur/npm-registry-fetch/check-response.js:104:15

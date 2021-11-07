@@ -9,5 +9,8 @@
     "build-ts": "node ../../scripts/build-ts",
     "test": "jest . --config ../../jest.config.js",
     "test-debug": "node --inspect-brk ../../node_modules/.bin/jest --config ./example/webpack.config.js --runInBand"
+  },
+  "dependencies": {
+    "@ts-lernarepo/log": "link:../log"
   }
 }

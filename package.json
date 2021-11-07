@@ -3,6 +3,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
+    "dev": "tsnd --respawn --transpile-only -P tsconfig.json src/index",
     "init": "lerna clean && lerna bootstrap",
     "build": "lerna run build",
     "release": "npm run build && lerna publish"
@@ -19,6 +20,7 @@
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/preset-env": "^7.10.3",
     "@babel/preset-typescript": "^7.10.1",
+    "@ts-lernarepo/app": "0.0.6",
     "@types/rimraf": "^3.0.2",
     "cross-env": "^7.0.3",
     "rimraf": "^3.0.2",
