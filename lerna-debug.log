@@ -1,0 +1,7 @@
+48 error Error: Command failed: git push --follow-tags --no-verify origin master
+48 error remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+48 error remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+48 error fatal: Authentication failed for 'https://github.com/nshen/ts-lerna-repo.git/'
+48 error
+48 error     at makeError (/Users/liudiguang/test/ts-lerna-repo/node_modules/execa/index.js:174:9)
+48 error     at /Users/liudiguang/test/ts-lerna-repo/node_modules/execa/index.js:278:16

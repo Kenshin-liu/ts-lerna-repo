@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2017",
+    "lib": ["es6"],
+    "types": ["node"],
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "baseUrl": "./packages",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@dsl/*": ["src/lib/dsl/*"],
+      "@utils": ["src/lib/utils/index"],
+      "@code/*": ["src/lib/code/*"],
+      "@layout/*": ["src/lib/layout/*"],
+      "@parse/*": ["src/lib/parse/*"],
+      "@type/*": ["src/lib/types/*"],
+      "@adapter/*": ["src/lib/adapter/*"],
+      "@ts-lernarepo/*": ["*/src/index"]
+    }
+  }
+}
